@@ -1,0 +1,1597 @@
+{
+ "rubric": {
+  "1": "Desktop installer or editor extension",
+  "2": "Single documented command (docker run / pip / npm / brew install)",
+  "3": "Docker Compose multi-service stack",
+  "4": "Clone + manual Python env/requirements and model download, GPU expected",
+  "5": "Multi-node or heavy manual configuration"
+ },
+ "costInputs": {
+  "electricityUsdPerKwh": {
+   "value": 0.1831,
+   "source": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+   "note": "US average residential price, latest month in EIA Table 5.6.A"
+  },
+  "vps": {
+   "source": "https://www.digitalocean.com/pricing/droplets",
+   "plans": [
+    {
+     "ramGB": 1,
+     "usd": 6
+    },
+    {
+     "ramGB": 2,
+     "usd": 12
+    },
+    {
+     "ramGB": 4,
+     "usd": 24
+    },
+    {
+     "ramGB": 8,
+     "usd": 48
+    },
+    {
+     "ramGB": 16,
+     "usd": 96
+    }
+   ]
+  },
+  "localFormula": "monthly USD = watts / 1000 x hoursPerDay x 30 x electricityUsdPerKwh (watts and hoursPerDay are user inputs)",
+  "vpsFormula": "monthly USD = cheapest DigitalOcean Basic Droplet whose RAM >= the alternative's minimum RAM (TBD if minimum RAM unknown or GPU required)"
+ },
+ "prices": {
+  "cursor": {
+   "value": "Plus $8/mo",
+   "source": "https://cursor.com/pricing"
+  },
+  "lovable-bolt-new": {
+   "value": "Lovable Pro $25/mo; Bolt Pro $25/mo",
+   "source": "https://lovable.dev/guides/best-ai-app-builders ; https://bolt.new/pricing"
+  },
+  "claude-code": {
+   "value": "Included in Claude Pro, $20/mo (as reported 29 Sep 2026)",
+   "source": "https://www.raithub.com/blog/lovable-vs-bolt-vs-cursor-for-real-products"
+  },
+  "devin": {
+   "value": "$20/mo",
+   "source": "https://devin.ai/pricing"
+  },
+  "runway-sora": {
+   "value": "Runway Standard $12/mo",
+   "source": "https://runwayml.com/pricing"
+  },
+  "elevenlabs": {
+   "value": "Creator $11/mo (Starter shown at $1/mo)",
+   "source": "https://elevenlabs.io/pricing"
+  },
+  "elevenlabs-voice-cloning": {
+   "value": "Creator $11/mo (Starter shown at $1/mo)",
+   "source": "https://elevenlabs.io/pricing"
+  },
+  "suno-udio": {
+   "value": "Suno $8/mo",
+   "source": "https://suno.com/pricing"
+  },
+  "otter-ai-rev": {
+   "value": "Otter $24/user/mo",
+   "source": "https://otter.ai/pricing"
+  },
+  "fireflies": {
+   "value": "$10/seat/mo billed annually",
+   "source": "https://fireflies.ai/pricing"
+  },
+  "zapier-ai": {
+   "value": "$19.99/mo",
+   "source": "https://zapier.com/pricing"
+  },
+  "scraping-apis": {
+   "value": "Firecrawl $16/mo billed yearly",
+   "source": "https://www.firecrawl.dev/pricing"
+  },
+  "notion-ai": {
+   "value": "Plus $10/seat/mo; Business $20/seat/mo",
+   "source": "https://www.notion.com/pricing"
+  },
+  "mem": {
+   "value": "$9/mo",
+   "source": "https://get.mem.ai/pricing"
+  },
+  "llamaparse": {
+   "value": "$50/mo",
+   "source": "https://www.llamaindex.ai/pricing"
+  },
+  "opus-clip": {
+   "value": "Pro $15/mo",
+   "source": "https://www.opus.pro/pricing"
+  },
+  "buffer-ai": {
+   "value": "$5/mo per channel",
+   "source": "https://buffer.com/pricing"
+  },
+  "intercom-fin": {
+   "value": "$39/seat/mo",
+   "source": "https://www.intercom.com/pricing"
+  },
+  "langsmith": {
+   "value": "$39/seat/mo",
+   "source": "https://www.langchain.com/pricing"
+  },
+  "vercel-replit-hosting": {
+   "value": "Vercel Pro $20/mo; Replit $18/mo billed annually",
+   "source": "https://vercel.com/pricing ; https://replit.com/pricing"
+  }
+ },
+ "alternatives": {
+  "AUTOMATIC1111/stable-diffusion-webui": {
+   "canDo": {
+    "value": "Stable Diffusion web UI.",
+    "source": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": 4,
+    "runsOn": [
+     "gpu"
+    ],
+    "note": "4GB video card support",
+    "source": "https://github.com/AUTOMATIC1111/stable-diffusion-webui#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "Aider-AI/aider": {
+   "canDo": {
+    "value": "aider is AI pair programming in your terminal.",
+    "source": "https://github.com/Aider-AI/aider",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/Aider-AI/aider#readme"
+   }
+  },
+  "Anil-matcha/AI-Youtube-Shorts-Generator": {
+   "canDo": {
+    "value": "Open-source alternative to Opus Clip, Vidyo.ai, Klap & SubMagic. Turn long-form YouTube videos into viral 9:16 shorts using LLM highlight detection, Whisper transcription, and auto vertical cropping \u2014 free, no watermarks, no per-clip credits.",
+    "source": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 4,
+    "source": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator#readme"
+   }
+  },
+  "AppFlowy-IO/AppFlowy": {
+   "canDo": {
+    "value": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+    "source": "https://github.com/AppFlowy-IO/AppFlowy",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "Comfy-Org/ComfyUI": {
+   "canDo": {
+    "value": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+    "source": "https://github.com/Comfy-Org/ComfyUI",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 8,
+    "vramGB": 4,
+    "runsOn": [
+     "gpu",
+     "cpu"
+    ],
+    "note": "as low as 4GB VRAM + 8GB RAM",
+    "source": "https://github.com/Comfy-Org/ComfyUI#readme"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/Comfy-Org/ComfyUI#readme"
+   }
+  },
+  "Dokploy/dokploy": {
+   "canDo": {
+    "value": "Open Source Alternative to Vercel, Netlify and Heroku.",
+    "source": "https://github.com/Dokploy/dokploy",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "ItzCrazyKns/Vane": {
+   "canDo": {
+    "value": "Vane is an AI-powered answering engine.",
+    "source": "https://github.com/ItzCrazyKns/Vane",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/ItzCrazyKns/Vane#readme"
+   }
+  },
+  "LibreChat-AI/LibreChat": {
+   "canDo": {
+    "value": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "source": "https://github.com/LibreChat-AI/LibreChat",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "LibreTranslate/LibreTranslate": {
+   "canDo": {
+    "value": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+    "source": "https://github.com/LibreTranslate/LibreTranslate",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "Lightricks/LTX-Video": {
+   "canDo": {
+    "value": "Official repository for LTX-Video.",
+    "source": "https://github.com/Lightricks/LTX-Video",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": 8,
+    "runsOn": [
+     "gpu"
+    ],
+    "note": "RTX 4060 (8GB VRAM) example",
+    "source": "https://github.com/Lightricks/LTX-Video#readme"
+   },
+   "setupDifficulty": {
+    "value": 4,
+    "source": "https://github.com/Lightricks/LTX-Video#readme"
+   }
+  },
+  "Mintplex-Labs/anything-llm": {
+   "canDo": {
+    "value": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience  - GitHub - Mintplex-Labs/anything-llm: Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
+    "source": "https://github.com/Mintplex-Labs/anything-llm",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "OpenHands/OpenHands": {
+   "canDo": {
+    "value": "\ud83d\ude4c OpenHands: AI-Driven Development.",
+    "source": "https://github.com/OpenHands/OpenHands",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/OpenHands/OpenHands#readme"
+   }
+  },
+  "PDFMathTranslate/PDFMathTranslate": {
+   "canDo": {
+    "value": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/MCP/Docker/Zotero",
+    "source": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/PDFMathTranslate/PDFMathTranslate#readme"
+   }
+  },
+  "RVC-Boss/GPT-SoVITS": {
+   "canDo": {
+    "value": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+    "source": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 4,
+    "source": "https://github.com/RVC-Boss/GPT-SoVITS#readme"
+   }
+  },
+  "SYSTRAN/faster-whisper": {
+   "canDo": {
+    "value": "Faster Whisper transcription with CTranslate2.",
+    "source": "https://github.com/SYSTRAN/faster-whisper",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/SYSTRAN/faster-whisper#readme"
+   }
+  },
+  "Significant-Gravitas/AutoGPT": {
+   "canDo": {
+    "value": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "source": "https://github.com/Significant-Gravitas/AutoGPT",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "Stirling-Tools/Stirling-PDF": {
+   "canDo": {
+    "value": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+    "source": "https://github.com/Stirling-Tools/Stirling-PDF",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/Stirling-Tools/Stirling-PDF#readme"
+   }
+  },
+  "TabbyML/tabby": {
+   "canDo": {
+    "value": "Self-hosted AI coding assistant.",
+    "source": "https://github.com/TabbyML/tabby",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/TabbyML/tabby#readme"
+   }
+  },
+  "Wan-Video/Wan2.1": {
+   "canDo": {
+    "value": "Wan: Open and Advanced Large-Scale Video Generative Models",
+    "source": "https://github.com/Wan-Video/Wan2.1",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": 8.19,
+    "runsOn": [
+     "gpu"
+    ],
+    "note": "T2V-1.3B model",
+    "source": "https://github.com/Wan-Video/Wan2.1#readme"
+   },
+   "setupDifficulty": {
+    "value": 4,
+    "source": "https://github.com/Wan-Video/Wan2.1#readme"
+   }
+  },
+  "Zackriya-Solutions/meetily": {
+   "canDo": {
+    "value": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+    "source": "https://github.com/Zackriya-Solutions/meetily",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "anomalyco/opencode": {
+   "canDo": {
+    "value": "The open source coding agent.",
+    "source": "https://github.com/anomalyco/opencode",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/anomalyco/opencode#readme"
+   }
+  },
+  "argosopentech/argos-translate": {
+   "canDo": {
+    "value": "Open-source offline translation library written in Python",
+    "source": "https://github.com/argosopentech/argos-translate",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/argosopentech/argos-translate#readme"
+   }
+  },
+  "browser-use/browser-use": {
+   "canDo": {
+    "value": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+    "source": "https://github.com/browser-use/browser-use",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "chatwoot/chatwoot": {
+   "canDo": {
+    "value": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. \ud83d\udd25\ud83d\udcac",
+    "source": "https://github.com/chatwoot/chatwoot",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "cline/cline": {
+   "canDo": {
+    "value": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "source": "https://github.com/cline/cline",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/cline/cline#readme"
+   }
+  },
+  "continuedev/continue": {
+   "canDo": {
+    "value": "open-source coding agent.",
+    "source": "https://github.com/continuedev/continue",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "coollabsio/coolify": {
+   "canDo": {
+    "value": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+    "source": "https://github.com/coollabsio/coolify",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "docling-project/docling": {
+   "canDo": {
+    "value": "Get your documents ready for gen AI.",
+    "source": "https://github.com/docling-project/docling",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/docling-project/docling#readme"
+   }
+  },
+  "excalidraw/excalidraw": {
+   "canDo": {
+    "value": "Virtual whiteboard for sketching hand-drawn like diagrams",
+    "source": "https://github.com/excalidraw/excalidraw",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "facebookresearch/audiocraft": {
+   "canDo": {
+    "value": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
+    "source": "https://github.com/facebookresearch/audiocraft",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "firecrawl/firecrawl": {
+   "canDo": {
+    "value": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. \ud83d\udd25",
+    "source": "https://github.com/firecrawl/firecrawl",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "getmaxun/maxun": {
+   "canDo": {
+    "value": "Turn any website into a structured API. Extract, automate, search and monitor the web.",
+    "source": "https://github.com/getmaxun/maxun",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "ggml-org/llama.cpp": {
+   "canDo": {
+    "value": "LLM inference in C/C++.",
+    "source": "https://github.com/ggml-org/llama.cpp",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "ggml-org/whisper.cpp": {
+   "canDo": {
+    "value": "Port of OpenAI's Whisper model in C/C++.",
+    "source": "https://github.com/ggml-org/whisper.cpp",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu",
+     "mac"
+    ],
+    "note": "CPU-only inference supported",
+    "source": "https://github.com/ggml-org/whisper.cpp#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "gitroomhq/postiz-app": {
+   "canDo": {
+    "value": "\ud83d\udce8 The ultimate agentic social media scheduling tool \ud83e\udd16",
+    "source": "https://github.com/gitroomhq/postiz-app",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "harry0703/MoneyPrinterTurbo": {
+   "canDo": {
+    "value": "\u5229\u7528 AI \u5927\u6a21\u578b\u548c\u81ea\u52a8\u5316\u5de5\u4f5c\u6d41\uff0c\u6839\u636e\u4e3b\u9898\u6216\u5173\u952e\u8bcd\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891\u3002Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "source": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 4,
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu"
+    ],
+    "note": "minimum 4GB RAM",
+    "source": "https://github.com/harry0703/MoneyPrinterTurbo#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "hexgrad/kokoro": {
+   "canDo": {
+    "value": "https://hf.co/hexgrad/Kokoro-82M.",
+    "source": "https://github.com/hexgrad/kokoro",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/hexgrad/kokoro#readme"
+   }
+  },
+  "invoke-ai/InvokeAI": {
+   "canDo": {
+    "value": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+    "source": "https://github.com/invoke-ai/InvokeAI",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "janhq/jan": {
+   "canDo": {
+    "value": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+    "source": "https://github.com/janhq/jan",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 8,
+    "vramGB": "TBD",
+    "runsOn": [
+     "mac",
+     "cpu"
+    ],
+    "note": "8GB RAM for 3B models on macOS",
+    "source": "https://github.com/janhq/jan#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "khoj-ai/khoj": {
+   "canDo": {
+    "value": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+    "source": "https://github.com/khoj-ai/khoj",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "langflow-ai/langflow": {
+   "canDo": {
+    "value": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "source": "https://github.com/langflow-ai/langflow",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/langflow-ai/langflow#readme"
+   }
+  },
+  "langfuse/langfuse": {
+   "canDo": {
+    "value": "\ud83e\udea2 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+    "source": "https://github.com/langfuse/langfuse",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 3,
+    "source": "https://github.com/langfuse/langfuse#readme"
+   }
+  },
+  "langgenius/dify": {
+   "canDo": {
+    "value": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "source": "https://github.com/langgenius/dify",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 4,
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu"
+    ],
+    "note": "CPU >= 2 cores, RAM >= 4 GiB",
+    "source": "https://github.com/langgenius/dify#readme"
+   },
+   "setupDifficulty": {
+    "value": 3,
+    "source": "https://github.com/langgenius/dify#readme"
+   }
+  },
+  "lllyasviel/Fooocus": {
+   "canDo": {
+    "value": "Focus on prompting and generating.",
+    "source": "https://github.com/lllyasviel/Fooocus",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "lobehub/lobehub": {
+   "canDo": {
+    "value": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "source": "https://github.com/lobehub/lobehub",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 3,
+    "source": "https://github.com/lobehub/lobehub#readme"
+   }
+  },
+  "logseq/logseq": {
+   "canDo": {
+    "value": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
+    "source": "https://github.com/logseq/logseq",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "mudler/LocalAI": {
+   "canDo": {
+    "value": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+    "source": "https://github.com/mudler/LocalAI",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu",
+     "gpu",
+     "mac"
+    ],
+    "note": "No GPU required",
+    "source": "https://github.com/mudler/LocalAI#readme"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/mudler/LocalAI#readme"
+   }
+  },
+  "myshell-ai/OpenVoice": {
+   "canDo": {
+    "value": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+    "source": "https://github.com/myshell-ai/OpenVoice",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "n8n-io/n8n": {
+   "canDo": {
+    "value": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "source": "https://github.com/n8n-io/n8n",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/n8n-io/n8n#readme"
+   }
+  },
+  "nomic-ai/gpt4all": {
+   "canDo": {
+    "value": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+    "source": "https://github.com/nomic-ai/gpt4all",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 16,
+    "vramGB": "TBD",
+    "runsOn": [
+     "mac",
+     "cpu"
+    ],
+    "note": "16GB RAM (8GB for 3B LLMs)",
+    "source": "https://github.com/nomic-ai/gpt4all/blob/main/gpt4all-chat/system_requirements.md"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/nomic-ai/gpt4all#readme"
+   }
+  },
+  "ollama/ollama": {
+   "canDo": {
+    "value": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "source": "https://github.com/ollama/ollama",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "onlook-dev/onlook": {
+   "canDo": {
+    "value": "The Developer Tool for Visual Engineers \u2022 An Open-Source AI-First Design tool \u2022 Visually build, style, and edit your code with AI \u2022 World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+    "source": "https://github.com/onlook-dev/onlook",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "open-webui/open-webui": {
+   "canDo": {
+    "value": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "source": "https://github.com/open-webui/open-webui",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu"
+    ],
+    "note": "CPU-only install documented",
+    "source": "https://github.com/open-webui/open-webui#readme"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/open-webui/open-webui#readme"
+   }
+  },
+  "openai/whisper": {
+   "canDo": {
+    "value": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "source": "https://github.com/openai/whisper",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": 1,
+    "runsOn": [
+     "gpu",
+     "cpu"
+    ],
+    "note": "~1GB VRAM for tiny/base models",
+    "source": "https://github.com/openai/whisper#readme"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/openai/whisper#readme"
+   }
+  },
+  "opendatalab/MinerU": {
+   "canDo": {
+    "value": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+    "source": "https://github.com/opendatalab/MinerU",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 8,
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu",
+     "mac"
+    ],
+    "note": "basic backend: 8GB RAM, CPU-only supported",
+    "source": "https://github.com/opendatalab/MinerU#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "outline/outline": {
+   "canDo": {
+    "value": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+    "source": "https://github.com/outline/outline",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "penpot/penpot": {
+   "canDo": {
+    "value": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+    "source": "https://github.com/penpot/penpot",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "remsky/Kokoro-FastAPI": {
+   "canDo": {
+    "value": "Dockerized OpenAI-compatible wrapper for Kokoro-82M text-to-speech w/multiplatform CPU, AMD, NVIDIA GPU PyTorch; multi-speaker, clone-tuning, caption timestamps, SSML, optional readalong web UI",
+    "source": "https://github.com/remsky/Kokoro-FastAPI",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [
+     "cpu",
+     "gpu"
+    ],
+    "note": "CPU-only image available",
+    "source": "https://github.com/remsky/Kokoro-FastAPI#readme"
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/remsky/Kokoro-FastAPI#readme"
+   }
+  },
+  "resemble-ai/chatterbox": {
+   "canDo": {
+    "value": "SoTA open-source TTS.",
+    "source": "https://github.com/resemble-ai/chatterbox",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/resemble-ai/chatterbox#readme"
+   }
+  },
+  "screenpipe/screenpipe": {
+   "canDo": {
+    "value": "YC (S26) | Open Computer History | Continuously record your company computer work, map your workflows, help you find work worth automating, and power your agents' context",
+    "source": "https://github.com/screenpipe/screenpipe",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": 8,
+    "vramGB": "TBD",
+    "runsOn": [
+     "mac",
+     "cpu"
+    ],
+    "note": "8GB RAM recommended",
+    "source": "https://github.com/screenpipe/screenpipe#readme"
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "siyuan-note/siyuan": {
+   "canDo": {
+    "value": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together \u5f00\u6e90\u3001\u9690\u79c1\u4f18\u5148\u3001\u81ea\u6258\u7ba1\u7684\u77e5\u8bc6\u5de5\u4f5c\u7a7a\u95f4\uff0c\u8ba9\u4eba\u4e0e\u667a\u80fd\u4f53\u5728\u6b64\u534f\u4f5c",
+    "source": "https://github.com/siyuan-note/siyuan",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/siyuan-note/siyuan#readme"
+   }
+  },
+  "stackblitz-labs/bolt.diy": {
+   "canDo": {
+    "value": "Prompt, run, edit, and deploy full-stack web applications using any LLM you want!",
+    "source": "https://github.com/stackblitz-labs/bolt.diy",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "unclecode/crawl4ai": {
+   "canDo": {
+    "value": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+    "source": "https://github.com/unclecode/crawl4ai",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": "TBD",
+    "source": null
+   }
+  },
+  "vllm-project/vllm": {
+   "canDo": {
+    "value": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "source": "https://github.com/vllm-project/vllm",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/vllm-project/vllm#readme"
+   }
+  },
+  "zylon-ai/private-gpt": {
+   "canDo": {
+    "value": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+    "source": "https://github.com/zylon-ai/private-gpt",
+    "note": "GitHub project description"
+   },
+   "cantDo": {
+    "value": "TBD",
+    "source": null
+   },
+   "minHardware": {
+    "ramGB": "TBD",
+    "vramGB": "TBD",
+    "runsOn": [],
+    "note": "",
+    "source": null
+   },
+   "setupDifficulty": {
+    "value": 2,
+    "source": "https://github.com/zylon-ai/private-gpt#readme"
+   }
+  }
+ }
+}

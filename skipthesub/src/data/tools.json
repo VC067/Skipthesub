@@ -1,0 +1,351 @@
+[
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "open-webui/open-webui", "githubUrl": "https://github.com/open-webui/open-webui", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "LibreChat-AI/LibreChat", "githubUrl": "https://github.com/LibreChat-AI/LibreChat", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "lobehub/lobehub", "githubUrl": "https://github.com/lobehub/lobehub", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "chatgpt-desktop",
+    "name": "ChatGPT Desktop",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "janhq/jan", "githubUrl": "https://github.com/janhq/jan", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "nomic-ai/gpt4all", "githubUrl": "https://github.com/nomic-ai/gpt4all", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "openai-api",
+    "name": "OpenAI API",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "ollama/ollama", "githubUrl": "https://github.com/ollama/ollama", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "mudler/LocalAI", "githubUrl": "https://github.com/mudler/LocalAI", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "ggml-org/llama.cpp", "githubUrl": "https://github.com/ggml-org/llama.cpp", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "together-ai-fireworks",
+    "name": "Together AI / Fireworks",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "vllm-project/vllm", "githubUrl": "https://github.com/vllm-project/vllm", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "lm-studio",
+    "name": "LM Studio",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "ollama/ollama", "githubUrl": "https://github.com/ollama/ollama", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "janhq/jan", "githubUrl": "https://github.com/janhq/jan", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "ItzCrazyKns/Vane", "githubUrl": "https://github.com/ItzCrazyKns/Vane", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "khoj-ai/khoj", "githubUrl": "https://github.com/khoj-ai/khoj", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "chatgpt-projects",
+    "name": "ChatGPT Projects",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Mintplex-Labs/anything-llm", "githubUrl": "https://github.com/Mintplex-Labs/anything-llm", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "zylon-ai/private-gpt", "githubUrl": "https://github.com/zylon-ai/private-gpt", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "continuedev/continue", "githubUrl": "https://github.com/continuedev/continue", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "cline/cline", "githubUrl": "https://github.com/cline/cline", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "TabbyML/tabby", "githubUrl": "https://github.com/TabbyML/tabby", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "continuedev/continue", "githubUrl": "https://github.com/continuedev/continue", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "anomalyco/opencode", "githubUrl": "https://github.com/anomalyco/opencode", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "Aider-AI/aider", "githubUrl": "https://github.com/Aider-AI/aider", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "devin",
+    "name": "Devin",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "OpenHands/OpenHands", "githubUrl": "https://github.com/OpenHands/OpenHands", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "lovable-bolt-new",
+    "name": "Lovable / Bolt.new",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "stackblitz-labs/bolt.diy", "githubUrl": "https://github.com/stackblitz-labs/bolt.diy", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "v0",
+    "name": "v0",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "onlook-dev/onlook", "githubUrl": "https://github.com/onlook-dev/onlook", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Comfy-Org/ComfyUI", "githubUrl": "https://github.com/Comfy-Org/ComfyUI", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "lllyasviel/Fooocus", "githubUrl": "https://github.com/lllyasviel/Fooocus", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "invoke-ai/InvokeAI", "githubUrl": "https://github.com/invoke-ai/InvokeAI", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "AUTOMATIC1111/stable-diffusion-webui", "githubUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "runway-sora",
+    "name": "Runway / Sora",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Wan-Video/Wan2.1", "githubUrl": "https://github.com/Wan-Video/Wan2.1", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "Lightricks/LTX-Video", "githubUrl": "https://github.com/Lightricks/LTX-Video", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "resemble-ai/chatterbox", "githubUrl": "https://github.com/resemble-ai/chatterbox", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "hexgrad/kokoro", "githubUrl": "https://github.com/hexgrad/kokoro", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "remsky/Kokoro-FastAPI", "githubUrl": "https://github.com/remsky/Kokoro-FastAPI", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "elevenlabs-voice-cloning",
+    "name": "ElevenLabs Voice Cloning",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "RVC-Boss/GPT-SoVITS", "githubUrl": "https://github.com/RVC-Boss/GPT-SoVITS", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "myshell-ai/OpenVoice", "githubUrl": "https://github.com/myshell-ai/OpenVoice", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "suno-udio",
+    "name": "Suno / Udio",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "facebookresearch/audiocraft", "githubUrl": "https://github.com/facebookresearch/audiocraft", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "otter-ai-rev",
+    "name": "Otter.ai / Rev",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "openai/whisper", "githubUrl": "https://github.com/openai/whisper", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "SYSTRAN/faster-whisper", "githubUrl": "https://github.com/SYSTRAN/faster-whisper", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "ggml-org/whisper.cpp", "githubUrl": "https://github.com/ggml-org/whisper.cpp", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "fireflies",
+    "name": "Fireflies",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Zackriya-Solutions/meetily", "githubUrl": "https://github.com/Zackriya-Solutions/meetily", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "rewind-limitless",
+    "name": "Rewind / Limitless",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "screenpipe/screenpipe", "githubUrl": "https://github.com/screenpipe/screenpipe", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "zapier-ai",
+    "name": "Zapier AI",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "n8n-io/n8n", "githubUrl": "https://github.com/n8n-io/n8n", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "openai-assistants-gpts",
+    "name": "OpenAI Assistants / GPTs",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "langgenius/dify", "githubUrl": "https://github.com/langgenius/dify", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "langflow-ai/langflow", "githubUrl": "https://github.com/langflow-ai/langflow", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "manus",
+    "name": "Manus",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Significant-Gravitas/AutoGPT", "githubUrl": "https://github.com/Significant-Gravitas/AutoGPT", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "openai-operator",
+    "name": "OpenAI Operator",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "browser-use/browser-use", "githubUrl": "https://github.com/browser-use/browser-use", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "scraping-apis",
+    "name": "Scraping APIs",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "firecrawl/firecrawl", "githubUrl": "https://github.com/firecrawl/firecrawl", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "unclecode/crawl4ai", "githubUrl": "https://github.com/unclecode/crawl4ai", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "getmaxun/maxun", "githubUrl": "https://github.com/getmaxun/maxun", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "AppFlowy-IO/AppFlowy", "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "siyuan-note/siyuan", "githubUrl": "https://github.com/siyuan-note/siyuan", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "confluence",
+    "name": "Confluence",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "outline/outline", "githubUrl": "https://github.com/outline/outline", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "mem",
+    "name": "Mem",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "logseq/logseq", "githubUrl": "https://github.com/logseq/logseq", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "khoj-ai/khoj", "githubUrl": "https://github.com/khoj-ai/khoj", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "adobe-acrobat-ai",
+    "name": "Adobe Acrobat AI",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "Stirling-Tools/Stirling-PDF", "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "llamaparse",
+    "name": "LlamaParse",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "docling-project/docling", "githubUrl": "https://github.com/docling-project/docling", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "opendatalab/MinerU", "githubUrl": "https://github.com/opendatalab/MinerU", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "deepl",
+    "name": "DeepL",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "LibreTranslate/LibreTranslate", "githubUrl": "https://github.com/LibreTranslate/LibreTranslate", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "argosopentech/argos-translate", "githubUrl": "https://github.com/argosopentech/argos-translate", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "PDFMathTranslate/PDFMathTranslate", "githubUrl": "https://github.com/PDFMathTranslate/PDFMathTranslate", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "figma-ai",
+    "name": "Figma AI",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "penpot/penpot", "githubUrl": "https://github.com/penpot/penpot", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "whimsical",
+    "name": "Whimsical",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "excalidraw/excalidraw", "githubUrl": "https://github.com/excalidraw/excalidraw", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "opus-clip",
+    "name": "Opus Clip",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "harry0703/MoneyPrinterTurbo", "githubUrl": "https://github.com/harry0703/MoneyPrinterTurbo", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "Anil-matcha/AI-Youtube-Shorts-Generator", "githubUrl": "https://github.com/Anil-matcha/AI-Youtube-Shorts-Generator", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "buffer-ai",
+    "name": "Buffer AI",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "gitroomhq/postiz-app", "githubUrl": "https://github.com/gitroomhq/postiz-app", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "intercom-fin",
+    "name": "Intercom Fin",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "chatwoot/chatwoot", "githubUrl": "https://github.com/chatwoot/chatwoot", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "langsmith",
+    "name": "LangSmith",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "langfuse/langfuse", "githubUrl": "https://github.com/langfuse/langfuse", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  },
+  {
+    "slug": "vercel-replit-hosting",
+    "name": "Vercel / Replit hosting",
+    "monthlyPrice": "TBD",
+    "alternatives": [
+      { "repo": "coollabsio/coolify", "githubUrl": "https://github.com/coollabsio/coolify", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" },
+      { "repo": "Dokploy/dokploy", "githubUrl": "https://github.com/Dokploy/dokploy", "canDo": "TBD", "cantDo": "TBD", "minHardware": { "ramGB": "TBD", "vramGB": "TBD", "runsOn": [] }, "setupDifficulty": "TBD" }
+    ]
+  }
+]

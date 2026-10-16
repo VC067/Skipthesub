@@ -1,0 +1,45 @@
+---
+const { slug } = Astro.props;
+const pageUrl = `https://skipthesub.pages.dev/alternatives/${slug}`;
+const snippet = `<a href="${pageUrl}"><img src="https://skipthesub.pages.dev/badge.svg" alt="Listed on SkipTheSub"></a>`;
+---
+
+<div class="badge-block">
+  <h2>List this page</h2>
+  <div class="badge-preview">
+    <img src="/badge.svg" alt="Listed on SkipTheSub" width="120" height="20" />
+    <span>Paste this into your project's README to link back here:</span>
+  </div>
+  <div class="badge-snippet">
+    <label class="visually-hidden" for={`badge-snippet-${slug}`}>Badge HTML snippet</label>
+    <textarea id={`badge-snippet-${slug}`} rows="2" readonly>{snippet}</textarea>
+    <button class="btn" type="button" data-copy={`badge-snippet-${slug}`}>Copy</button>
+  </div>
+</div>
+
+<style>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('button[data-copy]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const id = btn.getAttribute('data-copy');
+      const textarea = document.getElementById(id) as HTMLTextAreaElement | null;
+      if (!textarea) return;
+      await navigator.clipboard.writeText(textarea.value);
+      const original = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => {
+        btn.textContent = original;
+      }, 1500);
+    });
+  });
+</script>

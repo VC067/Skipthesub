@@ -1,6 +1,6 @@
 {
   "AUTOMATIC1111/stable-diffusion-webui": {
-    "stars": 165071,
+    "stars": 165073,
     "pushedAt": "2026-03-02T07:00:53Z",
     "archived": false,
     "latestRelease": {
@@ -9,10 +9,10 @@
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1",
       "publishedAt": "2025-02-09T08:00:10Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Aider-AI/aider": {
-    "stars": 49594,
+    "stars": 49606,
     "pushedAt": "2026-05-22T14:02:20Z",
     "archived": false,
     "latestRelease": {
@@ -21,17 +21,17 @@
       "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "publishedAt": "2025-08-09T17:42:19Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Anil-matcha/AI-Youtube-Shorts-Generator": {
-    "stars": 5435,
+    "stars": 5446,
     "pushedAt": "2026-10-11T11:19:33Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "AppFlowy-IO/AppFlowy": {
-    "stars": 77496,
+    "stars": 77526,
     "pushedAt": "2026-10-08T11:00:14Z",
     "archived": false,
     "latestRelease": {
@@ -40,11 +40,11 @@
       "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.14.8",
       "publishedAt": "2026-10-08T11:00:14Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Comfy-Org/ComfyUI": {
-    "stars": 137982,
-    "pushedAt": "2026-10-17T06:35:00Z",
+    "stars": 138121,
+    "pushedAt": "2026-10-18T05:20:10Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v0.41.0",
@@ -52,10 +52,10 @@
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0",
       "publishedAt": "2026-10-15T22:57:45Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Dokploy/dokploy": {
-    "stars": 37833,
+    "stars": 37846,
     "pushedAt": "2026-10-16T15:40:46Z",
     "archived": false,
     "latestRelease": {
@@ -64,10 +64,10 @@
       "url": "https://github.com/Dokploy/dokploy/releases/tag/v0.30.8",
       "publishedAt": "2026-09-29T08:16:23Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "ItzCrazyKns/Vane": {
-    "stars": 37365,
+    "stars": 37376,
     "pushedAt": "2026-09-01T14:12:12Z",
     "archived": false,
     "latestRelease": {
@@ -76,17 +76,17 @@
       "url": "https://github.com/ItzCrazyKns/Vane/releases/tag/v1.12.2",
       "publishedAt": "2026-04-10T13:30:52Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "LibreChat-AI/LibreChat": {
-    "stars": 45846,
-    "pushedAt": "2026-10-17T10:04:50Z",
+    "stars": 45911,
+    "pushedAt": "2026-10-18T09:51:28Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "LibreTranslate/LibreTranslate": {
-    "stars": 17101,
+    "stars": 17113,
     "pushedAt": "2026-10-12T16:51:33Z",
     "archived": false,
     "latestRelease": {
@@ -95,17 +95,17 @@
       "url": "https://github.com/LibreTranslate/LibreTranslate/releases/tag/v1.9.6",
       "publishedAt": "2026-05-26T17:45:39Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Lightricks/LTX-Video": {
-    "stars": 11123,
+    "stars": 11125,
     "pushedAt": "2026-01-05T22:37:07Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Mintplex-Labs/anything-llm": {
-    "stars": 67234,
+    "stars": 67267,
     "pushedAt": "2026-10-17T01:36:42Z",
     "archived": false,
     "latestRelease": {
@@ -114,11 +114,11 @@
       "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.18.0",
       "publishedAt": "2026-10-13T16:15:52Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "OpenHands/OpenHands": {
-    "stars": 91101,
-    "pushedAt": "2026-10-17T09:14:57Z",
+    "stars": 91174,
+    "pushedAt": "2026-10-17T22:11:14Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v1.27.1",
@@ -126,11 +126,11 @@
       "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.27.1",
       "publishedAt": "2026-10-12T19:33:56Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "PDFMathTranslate/PDFMathTranslate": {
-    "stars": 37613,
-    "pushedAt": "2026-10-17T10:02:16Z",
+    "stars": 37625,
+    "pushedAt": "2026-10-18T10:11:57Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v1.9.11",
@@ -138,10 +138,10 @@
       "url": "https://github.com/PDFMathTranslate/PDFMathTranslate/releases/tag/v1.9.11",
       "publishedAt": "2025-07-11T08:37:31Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "RVC-Boss/GPT-SoVITS": {
-    "stars": 62967,
+    "stars": 63071,
     "pushedAt": "2026-10-08T16:27:11Z",
     "archived": false,
     "latestRelease": {
@@ -150,10 +150,10 @@
       "url": "https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20250606v2pro",
       "publishedAt": "2025-06-06T03:04:27Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "SYSTRAN/faster-whisper": {
-    "stars": 25906,
+    "stars": 25931,
     "pushedAt": "2026-10-16T11:12:55Z",
     "archived": false,
     "latestRelease": {
@@ -162,11 +162,11 @@
       "url": "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1",
       "publishedAt": "2025-10-31T11:34:00Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Significant-Gravitas/AutoGPT": {
-    "stars": 187619,
-    "pushedAt": "2026-10-17T09:01:38Z",
+    "stars": 187636,
+    "pushedAt": "2026-10-18T10:24:54Z",
     "archived": false,
     "latestRelease": {
       "tagName": "autogpt-platform-beta-v0.8.4",
@@ -174,11 +174,11 @@
       "url": "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.8.4",
       "publishedAt": "2026-10-14T16:22:16Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Stirling-Tools/Stirling-PDF": {
-    "stars": 94361,
-    "pushedAt": "2026-10-16T21:55:30Z",
+    "stars": 94414,
+    "pushedAt": "2026-10-18T10:23:35Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v3.2.0",
@@ -186,7 +186,7 @@
       "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.2.0",
       "publishedAt": "2026-10-15T20:36:26Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "TabbyML/tabby": {
     "stars": 33913,
@@ -198,17 +198,17 @@
       "url": "https://github.com/TabbyML/tabby/releases/tag/v0.32.0",
       "publishedAt": "2026-01-25T17:07:44Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Wan-Video/Wan2.1": {
-    "stars": 17229,
+    "stars": 17232,
     "pushedAt": "2026-03-05T09:38:07Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "Zackriya-Solutions/meetily": {
-    "stars": 31814,
+    "stars": 31874,
     "pushedAt": "2026-09-15T18:32:32Z",
     "archived": false,
     "latestRelease": {
@@ -217,11 +217,11 @@
       "url": "https://github.com/Zackriya-Solutions/meetily/releases/tag/v0.4.1",
       "publishedAt": "2026-09-12T06:15:42Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "anomalyco/opencode": {
-    "stars": 214500,
-    "pushedAt": "2026-10-17T10:06:07Z",
+    "stars": 215862,
+    "pushedAt": "2026-10-18T09:54:21Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v1.19.3",
@@ -229,10 +229,10 @@
       "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.3",
       "publishedAt": "2026-10-16T12:31:52Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "argosopentech/argos-translate": {
-    "stars": 6568,
+    "stars": 6573,
     "pushedAt": "2026-08-08T12:09:57Z",
     "archived": false,
     "latestRelease": {
@@ -241,11 +241,11 @@
       "url": "https://github.com/argosopentech/argos-translate/releases/tag/v1.4.0",
       "publishedAt": "2021-08-24T13:12:37Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "browser-use/browser-use": {
-    "stars": 118264,
-    "pushedAt": "2026-10-17T05:14:19Z",
+    "stars": 118374,
+    "pushedAt": "2026-10-17T20:02:49Z",
     "archived": false,
     "latestRelease": {
       "tagName": "0.13.13",
@@ -253,11 +253,11 @@
       "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13",
       "publishedAt": "2026-10-15T23:50:45Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "chatwoot/chatwoot": {
-    "stars": 37881,
-    "pushedAt": "2026-10-17T00:28:07Z",
+    "stars": 37914,
+    "pushedAt": "2026-10-18T01:59:12Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v4.18.0",
@@ -265,11 +265,11 @@
       "url": "https://github.com/chatwoot/chatwoot/releases/tag/v4.18.0",
       "publishedAt": "2026-09-18T00:02:33Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "cline/cline": {
-    "stars": 70445,
-    "pushedAt": "2026-10-17T09:27:21Z",
+    "stars": 70493,
+    "pushedAt": "2026-10-18T01:41:28Z",
     "archived": false,
     "latestRelease": {
       "tagName": "desktop-v0.0.48",
@@ -277,10 +277,10 @@
       "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.48",
       "publishedAt": "2026-10-17T04:34:20Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "continuedev/continue": {
-    "stars": 36234,
+    "stars": 36240,
     "pushedAt": "2026-10-14T23:52:57Z",
     "archived": false,
     "latestRelease": {
@@ -289,11 +289,11 @@
       "url": "https://github.com/continuedev/continue/releases/tag/v2.0.0-vscode",
       "publishedAt": "2026-06-19T00:24:01Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "coollabsio/coolify": {
-    "stars": 63077,
-    "pushedAt": "2026-10-16T21:25:37Z",
+    "stars": 63103,
+    "pushedAt": "2026-10-18T09:25:07Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v4.4.6",
@@ -301,11 +301,11 @@
       "url": "https://github.com/coollabsio/coolify/releases/tag/v4.4.6",
       "publishedAt": "2026-10-09T18:42:05Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "docling-project/docling": {
-    "stars": 69001,
-    "pushedAt": "2026-10-16T15:44:42Z",
+    "stars": 69042,
+    "pushedAt": "2026-10-18T07:20:32Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v2.140.0",
@@ -313,11 +313,11 @@
       "url": "https://github.com/docling-project/docling/releases/tag/v2.140.0",
       "publishedAt": "2026-10-16T09:00:49Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "excalidraw/excalidraw": {
-    "stars": 134028,
-    "pushedAt": "2026-10-15T09:11:06Z",
+    "stars": 134087,
+    "pushedAt": "2026-10-17T15:15:02Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v0.18.1",
@@ -325,18 +325,18 @@
       "url": "https://github.com/excalidraw/excalidraw/releases/tag/v0.18.1",
       "publishedAt": "2026-04-21T08:43:20Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "facebookresearch/audiocraft": {
-    "stars": 23738,
+    "stars": 23741,
     "pushedAt": "2026-03-03T21:50:32Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "firecrawl/firecrawl": {
-    "stars": 192321,
-    "pushedAt": "2026-10-17T09:05:40Z",
+    "stars": 192605,
+    "pushedAt": "2026-10-18T09:50:14Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v2.11.0",
@@ -344,11 +344,11 @@
       "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
       "publishedAt": "2026-06-19T15:09:30Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "getmaxun/maxun": {
-    "stars": 17878,
-    "pushedAt": "2026-10-16T18:43:04Z",
+    "stars": 17883,
+    "pushedAt": "2026-10-17T16:56:01Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v0.0.48",
@@ -356,11 +356,11 @@
       "url": "https://github.com/getmaxun/maxun/releases/tag/v0.0.48",
       "publishedAt": "2026-10-01T17:37:37Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "ggml-org/llama.cpp": {
-    "stars": 131457,
-    "pushedAt": "2026-10-17T09:41:54Z",
+    "stars": 131565,
+    "pushedAt": "2026-10-18T08:59:55Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v0.7.0",
@@ -368,10 +368,10 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
       "publishedAt": "2026-10-15T17:13:19Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "ggml-org/whisper.cpp": {
-    "stars": 54445,
+    "stars": 54459,
     "pushedAt": "2026-10-12T05:01:56Z",
     "archived": false,
     "latestRelease": {
@@ -380,11 +380,11 @@
       "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
       "publishedAt": "2026-10-06T17:39:17Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "gitroomhq/postiz-app": {
-    "stars": 37309,
-    "pushedAt": "2026-10-16T07:58:54Z",
+    "stars": 37352,
+    "pushedAt": "2026-10-17T14:20:31Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v2.25.1",
@@ -392,10 +392,10 @@
       "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.1",
       "publishedAt": "2026-10-11T15:19:10Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "harry0703/MoneyPrinterTurbo": {
-    "stars": 132233,
+    "stars": 132547,
     "pushedAt": "2026-10-17T01:04:30Z",
     "archived": false,
     "latestRelease": {
@@ -404,18 +404,18 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.8",
       "publishedAt": "2026-10-03T03:31:16Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "hexgrad/kokoro": {
-    "stars": 9394,
+    "stars": 9413,
     "pushedAt": "2025-08-06T22:28:53Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "invoke-ai/InvokeAI": {
-    "stars": 28699,
-    "pushedAt": "2026-10-17T09:51:37Z",
+    "stars": 28721,
+    "pushedAt": "2026-10-18T06:33:17Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v6.14.2",
@@ -423,10 +423,10 @@
       "url": "https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.2",
       "publishedAt": "2026-09-27T18:31:53Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "janhq/jan": {
-    "stars": 44977,
+    "stars": 44990,
     "pushedAt": "2026-10-16T10:22:30Z",
     "archived": false,
     "latestRelease": {
@@ -435,10 +435,10 @@
       "url": "https://github.com/janhq/jan/releases/tag/v0.8.6",
       "publishedAt": "2026-10-09T09:03:08Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "khoj-ai/khoj": {
-    "stars": 37717,
+    "stars": 37728,
     "pushedAt": "2026-08-02T01:55:40Z",
     "archived": false,
     "latestRelease": {
@@ -447,11 +447,11 @@
       "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.28",
       "publishedAt": "2026-03-26T03:36:04Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "langflow-ai/langflow": {
-    "stars": 155765,
-    "pushedAt": "2026-10-17T03:52:37Z",
+    "stars": 155787,
+    "pushedAt": "2026-10-18T00:39:40Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v1.12.6",
@@ -459,11 +459,11 @@
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.6",
       "publishedAt": "2026-10-13T16:29:12Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "langfuse/langfuse": {
-    "stars": 35950,
-    "pushedAt": "2026-10-17T09:00:18Z",
+    "stars": 35987,
+    "pushedAt": "2026-10-18T08:34:26Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v4.63.0",
@@ -471,11 +471,11 @@
       "url": "https://github.com/langfuse/langfuse/releases/tag/v4.63.0",
       "publishedAt": "2026-10-16T14:33:33Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "langgenius/dify": {
-    "stars": 158689,
-    "pushedAt": "2026-10-17T09:18:01Z",
+    "stars": 158764,
+    "pushedAt": "2026-10-18T10:12:28Z",
     "archived": false,
     "latestRelease": {
       "tagName": "1.17.1",
@@ -483,10 +483,10 @@
       "url": "https://github.com/langgenius/dify/releases/tag/1.17.1",
       "publishedAt": "2026-09-10T10:04:06Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "lllyasviel/Fooocus": {
-    "stars": 53559,
+    "stars": 53581,
     "pushedAt": "2025-12-01T19:17:07Z",
     "archived": false,
     "latestRelease": {
@@ -495,23 +495,23 @@
       "url": "https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5",
       "publishedAt": "2024-08-12T06:12:31Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "lobehub/lobehub": {
-    "stars": 83283,
-    "pushedAt": "2026-10-17T10:08:34Z",
+    "stars": 83302,
+    "pushedAt": "2026-10-18T10:26:07Z",
     "archived": false,
     "latestRelease": {
-      "tagName": "v2.2.19",
-      "name": "🚀 Release v2.2.19",
-      "url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.19",
-      "publishedAt": "2026-10-07T10:50:55Z"
+      "tagName": "v2.2.20",
+      "name": "🚀 Release v2.2.20",
+      "url": "https://github.com/lobehub/lobehub/releases/tag/v2.2.20",
+      "publishedAt": "2026-10-18T03:18:40Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "logseq/logseq": {
-    "stars": 45266,
-    "pushedAt": "2026-10-17T09:58:58Z",
+    "stars": 45279,
+    "pushedAt": "2026-10-18T10:02:31Z",
     "archived": false,
     "latestRelease": {
       "tagName": "2.0.2",
@@ -519,11 +519,11 @@
       "url": "https://github.com/logseq/logseq/releases/tag/2.0.2",
       "publishedAt": "2026-10-07T14:18:57Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "mudler/LocalAI": {
-    "stars": 49594,
-    "pushedAt": "2026-10-17T07:03:10Z",
+    "stars": 49614,
+    "pushedAt": "2026-10-18T09:45:58Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v4.11.0",
@@ -531,18 +531,18 @@
       "url": "https://github.com/mudler/LocalAI/releases/tag/v4.11.0",
       "publishedAt": "2026-10-02T21:56:09Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "myshell-ai/OpenVoice": {
-    "stars": 37909,
+    "stars": 37918,
     "pushedAt": "2025-04-19T16:00:00Z",
     "archived": false,
     "latestRelease": null,
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "n8n-io/n8n": {
-    "stars": 207758,
-    "pushedAt": "2026-10-17T09:24:10Z",
+    "stars": 207868,
+    "pushedAt": "2026-10-18T10:07:12Z",
     "archived": false,
     "latestRelease": {
       "tagName": "n8n@2.43.7",
@@ -550,10 +550,10 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.7",
       "publishedAt": "2026-10-16T07:23:56Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "nomic-ai/gpt4all": {
-    "stars": 77361,
+    "stars": 77354,
     "pushedAt": "2025-05-27T20:05:19Z",
     "archived": false,
     "latestRelease": {
@@ -562,22 +562,22 @@
       "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.10.0",
       "publishedAt": "2025-02-25T00:41:39Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "ollama/ollama": {
-    "stars": 183555,
-    "pushedAt": "2026-10-17T01:45:48Z",
+    "stars": 183687,
+    "pushedAt": "2026-10-18T06:06:02Z",
     "archived": false,
     "latestRelease": {
-      "tagName": "v0.40.5",
-      "name": "v0.40.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
-      "publishedAt": "2026-10-14T19:45:22Z"
+      "tagName": "v0.40.6",
+      "name": "v0.40.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
+      "publishedAt": "2026-10-16T22:00:46Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "onlook-dev/onlook": {
-    "stars": 26930,
+    "stars": 26942,
     "pushedAt": "2026-08-25T01:06:22Z",
     "archived": false,
     "latestRelease": {
@@ -586,10 +586,10 @@
       "url": "https://github.com/onlook-dev/onlook/releases/tag/v0.2.32",
       "publishedAt": "2025-07-17T18:36:21Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "open-webui/open-webui": {
-    "stars": 155947,
+    "stars": 156024,
     "pushedAt": "2026-10-16T14:59:01Z",
     "archived": false,
     "latestRelease": {
@@ -598,10 +598,10 @@
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.3",
       "publishedAt": "2026-10-16T11:46:21Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "openai/whisper": {
-    "stars": 110729,
+    "stars": 110794,
     "pushedAt": "2026-08-31T17:19:19Z",
     "archived": false,
     "latestRelease": {
@@ -610,11 +610,11 @@
       "url": "https://github.com/openai/whisper/releases/tag/v20250625",
       "publishedAt": "2025-06-26T01:06:09Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "opendatalab/MinerU": {
-    "stars": 81898,
-    "pushedAt": "2026-10-14T02:15:22Z",
+    "stars": 81958,
+    "pushedAt": "2026-10-17T15:18:55Z",
     "archived": false,
     "latestRelease": {
       "tagName": "mineru-4.0.12-released",
@@ -622,11 +622,11 @@
       "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.0.12-released",
       "publishedAt": "2026-10-11T02:21:42Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "outline/outline": {
-    "stars": 40930,
-    "pushedAt": "2026-10-17T04:51:45Z",
+    "stars": 40942,
+    "pushedAt": "2026-10-18T01:45:34Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v1.11.0",
@@ -634,11 +634,11 @@
       "url": "https://github.com/outline/outline/releases/tag/v1.11.0",
       "publishedAt": "2026-10-12T14:22:35Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "penpot/penpot": {
-    "stars": 61256,
-    "pushedAt": "2026-10-17T07:01:43Z",
+    "stars": 61308,
+    "pushedAt": "2026-10-18T07:16:42Z",
     "archived": false,
     "latestRelease": {
       "tagName": "2.18.3",
@@ -646,10 +646,10 @@
       "url": "https://github.com/penpot/penpot/releases/tag/2.18.3",
       "publishedAt": "2026-10-06T12:46:50Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "remsky/Kokoro-FastAPI": {
-    "stars": 5555,
+    "stars": 5554,
     "pushedAt": "2026-10-14T17:11:34Z",
     "archived": false,
     "latestRelease": {
@@ -658,10 +658,10 @@
       "url": "https://github.com/remsky/Kokoro-FastAPI/releases/tag/v0.9.0",
       "publishedAt": "2026-09-10T05:05:52Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "resemble-ai/chatterbox": {
-    "stars": 27020,
+    "stars": 27041,
     "pushedAt": "2026-07-21T12:27:05Z",
     "archived": false,
     "latestRelease": {
@@ -670,11 +670,11 @@
       "url": "https://github.com/resemble-ai/chatterbox/releases/tag/v0.1.2",
       "publishedAt": "2025-06-13T14:42:01Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "screenpipe/screenpipe": {
-    "stars": 21964,
-    "pushedAt": "2026-10-17T00:38:16Z",
+    "stars": 21970,
+    "pushedAt": "2026-10-18T01:57:55Z",
     "archived": false,
     "latestRelease": {
       "tagName": "app-v2.7.109",
@@ -682,11 +682,11 @@
       "url": "https://github.com/screenpipe/screenpipe/releases/tag/app-v2.7.109",
       "publishedAt": "2026-10-14T20:32:37Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "siyuan-note/siyuan": {
-    "stars": 46806,
-    "pushedAt": "2026-10-17T09:51:45Z",
+    "stars": 46817,
+    "pushedAt": "2026-10-18T09:59:46Z",
     "archived": false,
     "latestRelease": {
       "tagName": "v3.8.7",
@@ -694,7 +694,7 @@
       "url": "https://github.com/siyuan-note/siyuan/releases/tag/v3.8.7",
       "publishedAt": "2026-10-14T03:24:20Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "stackblitz-labs/bolt.diy": {
     "stars": 19953,
@@ -706,10 +706,10 @@
       "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.1",
       "publishedAt": "2026-10-12T16:49:08Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "unclecode/crawl4ai": {
-    "stars": 85686,
+    "stars": 85751,
     "pushedAt": "2026-10-15T10:16:13Z",
     "archived": false,
     "latestRelease": {
@@ -718,22 +718,22 @@
       "url": "https://github.com/unclecode/crawl4ai/releases/tag/v0.9.5",
       "publishedAt": "2026-10-14T10:25:39Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "vllm-project/vllm": {
-    "stars": 93971,
-    "pushedAt": "2026-10-17T09:58:19Z",
+    "stars": 94041,
+    "pushedAt": "2026-10-18T10:20:10Z",
     "archived": false,
     "latestRelease": {
-      "tagName": "v0.31.0",
-      "name": "v0.31.0",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
-      "publishedAt": "2026-10-05T06:44:55Z"
+      "tagName": "v0.32.0",
+      "name": "v0.32.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "publishedAt": "2026-10-18T06:50:48Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   },
   "zylon-ai/private-gpt": {
-    "stars": 57590,
+    "stars": 57594,
     "pushedAt": "2026-10-16T09:44:13Z",
     "archived": false,
     "latestRelease": {
@@ -742,6 +742,6 @@
       "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1",
       "publishedAt": "2026-06-18T13:56:00Z"
     },
-    "fetchedAt": "2026-10-17T10:11:55.319Z"
+    "fetchedAt": "2026-10-18T10:28:01.816Z"
   }
 }
